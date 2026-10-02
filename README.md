@@ -352,9 +352,15 @@ For the automated incident-response workflow, Codex CLI must also be configured 
 
 ### Start the complete stack
 
+Clone repository:
+```
+git clone https://github.com/ketut-garjita/order-tracker-v2.git
+```
+
 From the repository root:
 
 ```bash
+cd order-tracker-v2
 docker compose up --build -d
 ```
 
