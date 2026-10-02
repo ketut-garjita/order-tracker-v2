@@ -419,7 +419,7 @@ After the bug fix, the endpoint should complete without the previous date-calcul
 
 ### Test the responder webhook
 
-Start apps ( http://0.0.0.0:8001):
+Start Incident Response service:
 
 ```bsh
 ./incident-response/run.sh
