@@ -5,7 +5,7 @@ __pycache__/
 data/
 .env
 codex/
-incidents/*/
-incident-response/incidents/*/
+incidents/2026*
+incident-response/incidents/2026*
 
 
