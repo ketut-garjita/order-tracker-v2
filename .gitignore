@@ -5,7 +5,6 @@ __pycache__/
 data/
 .env
 codex/
-incidents/2026*
-incident-response/incidents/2026*
+2026*/
 
 
