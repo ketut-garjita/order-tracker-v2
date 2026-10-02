@@ -5,6 +5,7 @@ __pycache__/
 data/
 .env
 codex/
-incidents/*
+incidents/*/
+incident-response/incidents/*/
 
 
