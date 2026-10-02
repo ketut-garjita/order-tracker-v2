@@ -8,7 +8,7 @@ from agent import run_agent
 
 
 from pathlib import Path
-INCIDENTS_DIR = Path(os.getenv("INCIDENTS_DIR", Path(__file__).resolve().parent.parent / "incidents"))
+INCIDENTS_DIR = Path(os.getenv("INCIDENTS_DIR", Path(__file__).resolve().parent.parent / "incident-response/incidents"))
 INCIDENTS_DIR.mkdir(parents=True, exist_ok=True)
 
 
