@@ -419,17 +419,21 @@ After the bug fix, the endpoint should complete without the previous date-calcul
 
 ### Test the responder webhook
 
+Start apps ( http://0.0.0.0:8001):
+
+```bsh
+./incident-response/run.sh
+```
+
+Open another terminal:
+
 ```bash
 curl -X POST http://localhost:8001/alerts \
   -H 'Content-Type: application/json' \
   -d '{"alerts":[{"status":"firing","labels":{"alertname":"ResponderTest","test":"true"},"annotations":{"summary":"Test notification; no incident to fix"}}]}'
 ```
 
-Inspect the responder logs:
-
-```bash
-docker compose logs -f incident-response
-```
+Inspect the responder logs in ./ incident-response/incidents/ directory
 
 ### Stop the stack
 
