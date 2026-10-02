@@ -433,7 +433,7 @@ curl -X POST http://localhost:8001/alerts \
   -d '{"alerts":[{"status":"firing","labels":{"alertname":"ResponderTest","test":"true"},"annotations":{"summary":"Test notification; no incident to fix"}}]}'
 ```
 
-Inspect the responder logs in ./ incident-response/incidents/ directory
+Inspect the responder logs in the **./incident-response/incidents/** directory
 
 ### Stop the stack
 
